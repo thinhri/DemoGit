@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="thuvien.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<thuvien>
+    <Sach>
+        <MaSach>S001</MaSach>
+        <TenSach>Harry Potter and the Philosopher's Stone</TenSach>
+        <TacGia>J.K. Rowling</TacGia>
+        <TheLoai>Fiction</TheLoai>
+        <NXB>Bloomsbury Publishing</NXB>
+        <SoLuong>5</SoLuong>
+    </Sach>
+    <Sach>
+        <MaSach>S002</MaSach>
+        <TenSach>To Kill a Mockingbird</TenSach>
+        <TacGia>Harper Lee</TacGia>
+        <TheLoai>Fiction</TheLoai>
+        <NXB>Khoa học và Kỹ thuật</NXB>
+        <SoLuong>3</SoLuong>
+    </Sach>
+    <Sach>
+        <MaSach>S003</MaSach>
+        <TenSach>The Great Gatsby</TenSach>
+        <TacGia>F. Scott Fitzgerald</TacGia>
+        <TheLoai>Fiction</TheLoai>
+        <NXB>Charles Scribner's Sons</NXB>
+        <SoLuong>7</SoLuong>
+    </Sach>
+    <TheDocGia>
+        <MaDocGia>DG001</MaDocGia>
+        <TenDocGia>Nguyen Van A</TenDocGia>
+        <NgaySinh>1/1/2023</NgaySinh>
+        <GioiTinh>Nu</GioiTinh>
+        <DiaChi>123 ABC Street, Hue City</DiaChi>
+        <SDT>0123456789</SDT>
+        <NgayLapThe>1/1/2022</NgayLapThe>
+        <NgayHetHan>1/3/2025</NgayHetHan>
+        <PhieuMuon>
+            <MaPhieuMuon>PM001</MaPhieuMuon>
+            <NgayMuon>2024-03-20</NgayMuon>
+            <NgayTra>2024-03-27</NgayTra>
+            <ChiTietPhieuMuon>
+                <MaSach>S001</MaSach>
+                <SoLuong>2</SoLuong>
+            </ChiTietPhieuMuon>
+            <ChiTietPhieuMuon>
+                <MaSach>S002</MaSach>
+                <SoLuong>1</SoLuong>
+            </ChiTietPhieuMuon>
+        </PhieuMuon>
+    </TheDocGia>
+    <TheDocGia>
+        <MaDocGia>DG002</MaDocGia>
+        <TenDocGia>Tran Thi B</TenDocGia>
+        <NgaySinh>20/10/2022</NgaySinh>
+        <GioiTinh>Nu</GioiTinh>
+        <DiaChi>456 XYZ Street, Hue City</DiaChi>
+        <SDT>0987654321</SDT>
+        <NgayLapThe>2/3/2022</NgayLapThe>
+        <NgayHetHan>2/3/2022</NgayHetHan>
+        <PhieuMuon>
+            <MaPhieuMuon>PM002</MaPhieuMuon>
+            <NgayMuon>2024-03-21</NgayMuon>
+            <NgayTra>2024-03-28</NgayTra>
+            <ChiTietPhieuMuon>
+                <MaSach>S002</MaSach>
+                <SoLuong>3</SoLuong>
+            </ChiTietPhieuMuon>
+        </PhieuMuon>
+    </TheDocGia>
+    <TheDocGia>
+        <MaDocGia>DG003</MaDocGia>
+        <TenDocGia>Le Van C</TenDocGia>
+        <NgaySinh>3/4/2022</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <DiaChi>789 DEF Street, Hue City</DiaChi>
+        <SDT>0369852147</SDT>
+        <NgayLapThe>3/3/2024</NgayLapThe>
+        <NgayHetHan>3/3/2025</NgayHetHan>
+        <PhieuMuon>
+            <MaPhieuMuon>PM003</MaPhieuMuon>
+            <NgayMuon>2024-03-22</NgayMuon>
+            <NgayTra>2024-03-29</NgayTra>
+            <ChiTietPhieuMuon>
+                <MaSach>S003</MaSach>
+                <SoLuong>2</SoLuong>
+            </ChiTietPhieuMuon>
+        </PhieuMuon>
+    </TheDocGia>
+</thuvien>

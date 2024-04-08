@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT ThuVien (TheDocGia*)>
+<!ELEMENT TheDocGia (MaDocGia,TenDocGia,NgaySinh,GioiTinh,DiaChi,SDT,NgayLapThe,NgayHetHan,PhieuMuon*)>
+<!ELEMENT MaDocGia (#PCDATA)>
+<!ELEMENT TenDocGia (#PCDATA)>
+<!ELEMENT NgaySinh (#PCDATA)>
+<!ELEMENT GioiTinh (#PCDATA)>
+<!ELEMENT DiaChi (#PCDATA)>
+<!ELEMENT SDT (#PCDATA)>
+<!ELEMENT NgayLapThe (#PCDATA)>
+<!ELEMENT NgayHetHan (#PCDATA)>
+<!ELEMENT PhieuMuon (MaPhieuMuon,NgayMuon,NgayTra,ChiTietPhieuMuon*)>
+<!ELEMENT MaPhieuMuon (#PCDATA)>
+<!ELEMENT NgayMuon (#PCDATA)>
+<!ELEMENT NgayTra (#PCDATA)>
+<!ELEMENT ChiTietPhieuMuon (SoLuong,Sach)>
+<!ELEMENT SoLuong (#PCDATA)>
+<!ELEMENT Sach (MaSach,TenSach,TacGia,NXB,TheLoai,Soluong)>
+<!ELEMENT MaSach (#PCDATA)>
+<!ELEMENT TenSach (#PCDATA)>
+<!ELEMENT TacGia (#PCDATA)>
+<!ELEMENT NXB (#PCDATA)>
+<!ELEMENT TheLoai (#PCDATA)>
+

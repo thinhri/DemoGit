@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <?xml-model href="thuvien2.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?> -->
+<!DOCTYPE ThuVien SYSTEM "thuvien2.dtd">
+<ThuVien>
+    <TheDocGia>
+        <MaDocGia>01</MaDocGia>
+        <TenDocGia>An</TenDocGia>
+        <NgaySinh>2/2/2022</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <DiaChi>32 Dang Tat</DiaChi>
+        <SDT>02356156</SDT>
+        <NgayLapThe>3/2/2020</NgayLapThe>
+        <NgayHetHan>4/2/2024</NgayHetHan>
+        <PhieuMuon>
+            <MaPhieuMuon>p21</MaPhieuMuon>
+            <NgayMuon>23/1/2022</NgayMuon>
+            <NgayTra>12/6/2022</NgayTra>
+            <ChiTietPhieuMuon>
+                <SoLuong>2</SoLuong>      
+                <Sach>
+                    <MaSach>ms01</MaSach>
+                    <TenSach>HaHa</TenSach>
+                    <TacGia>Han</TacGia>
+                    <NXB>Kim Dong</NXB>
+                    <TheLoai>Kinh di</TheLoai>
+                    <SoLuong>5</SoLuong>
+                </Sach>
+            </ChiTietPhieuMuon>
+        </PhieuMuon>
+    </TheDocGia>
+    <TheDocGia>
+        <MaDocGia>01</MaDocGia>
+        <TenDocGia>An</TenDocGia>
+        <NgaySinh>2/2/2022</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <DiaChi>32 Dang Tat</DiaChi>
+        <SDT>02356156</SDT>
+        <NgayLapThe>1/1/2022</NgayLapThe>
+        <NgayHetHan>4/2/2024</NgayHetHan>
+        <PhieuMuon>
+            <MaPhieuMuon>p21</MaPhieuMuon>
+            <NgayMuon>1/1/2022</NgayMuon>
+            <NgayTra>12/6/2022</NgayTra>
+            <ChiTietPhieuMuon>
+                <SoLuong>2</SoLuong>      
+                <Sach>
+                    <MaSach>ms01</MaSach>
+                    <TenSach>HaHa</TenSach>
+                    <TacGia>Han</TacGia>
+                    <NXB>Kim Dong</NXB>
+                    <TheLoai>Kinh di</TheLoai>
+                    <SoLuong>5</SoLuong>
+                </Sach>
+            </ChiTietPhieuMuon>
+        </PhieuMuon>
+    </TheDocGia>
+    <TheDocGia>
+        <MaDocGia>01</MaDocGia>
+        <TenDocGia>Dat</TenDocGia>
+        <NgaySinh>2/2/2022</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <DiaChi>32 Dang Tat</DiaChi>
+        <SDT>02356156</SDT>
+        <NgayLapThe>1/1/2022</NgayLapThe>
+        <NgayHetHan>4/2/2024</NgayHetHan>
+        <PhieuMuon>
+            <MaPhieuMuon>p21</MaPhieuMuon>
+            <NgayMuon>23/1/2022</NgayMuon>
+            <NgayTra>12/6/2022</NgayTra>
+            <ChiTietPhieuMuon>
+                <SoLuong>2</SoLuong>      
+                <Sach>
+                    <MaSach>ms01</MaSach>
+                    <TenSach>HaHa</TenSach>
+                    <TacGia>Han</TacGia>
+                    <NXB>Kim Dong</NXB>
+                    <TheLoai>Kinh di</TheLoai>
+                    <SoLuong>5</SoLuong>
+                </Sach>
+            </ChiTietPhieuMuon>
+        </PhieuMuon>
+    </TheDocGia>
+</ThuVien>

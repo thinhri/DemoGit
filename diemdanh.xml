@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE DiemDanh [
+    <!ELEMENT DiemDanh (SinhVien*)>
+    <!ATTLIST DiemDanh Lop CDATA #REQUIRED>
+    <!ATTLIST DiemDanh ThoiGian CDATA #REQUIRED>
+    <!ELEMENT SinhVien (MSSV,HovaTen,SoLanVang,LyDoVang)>
+    <!ELEMENT MSSV (#PCDATA)>
+    <!ELEMENT HovaTen (#PCDATA)>
+    <!ELEMENT SoLanVang (#PCDATA)>
+    <!ELEMENT LyDoVang (#PCDATA)>
+]>
+
+<?xml-model href="diemdanh.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<DiemDanh Lop="60.TTQL" ThoiGian="3/2021">
+    <SinhVien>
+        <MSSV>03531542</MSSV>
+        <HovaTen>Nguyen Thi Binh</HovaTen>
+        <SoLanVang>3</SoLanVang>
+        <LyDoVang>ko co ly do</LyDoVang>
+    </SinhVien>
+    <SinhVien>
+        <MSSV>03315582</MSSV>
+        <HovaTen>Bui Van Hoang Hai</HovaTen>
+        <SoLanVang>1</SoLanVang>
+        <LyDoVang>Benh</LyDoVang>
+    </SinhVien>
+</DiemDanh>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DiemDanh">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="SinhVien" maxOccurs="2">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="MSSV" type="xs:string"></xs:element>
+                            <xs:element name="HovaTen" type="xs:string"></xs:element>
+                            <xs:element name="SoLanVang" type="xs:double"></xs:element>
+                            <xs:element name="LyDoVang" type="xs:string"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Lop" type="xs:string"></xs:attribute>
+            <xs:attribute name="ThoiGian" type="xs:string"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

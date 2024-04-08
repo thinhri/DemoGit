@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="thuvien">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Sach" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="MaSach" type="xs:string"></xs:element>
+                            <xs:element name="TenSach" type="xs:string"></xs:element>
+                            <xs:element name="TacGia" type="xs:string"></xs:element>
+                            <xs:element name="TheLoai" type="xs:string"></xs:element>
+                            <xs:element name="NXB" type="xs:string"></xs:element>
+                            <xs:element name="SoLuong" type="xs:int"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                
+                <xs:element name="TheDocGia" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="MaDocGia" type="xs:string"></xs:element>
+                            <xs:element name="TenDocGia" type="xs:string"></xs:element>
+                            <xs:element name="NgaySinh" type="dateType"></xs:element>
+                            <xs:element name="GioiTinh" type="xs:string"></xs:element>
+                            <xs:element name="DiaChi" type="xs:string"></xs:element>
+                            <xs:element name="SDT" type="xs:string"></xs:element>
+                            <xs:element name="NgayLapThe" type="dateType"></xs:element>
+                            <xs:element name="NgayHetHan" type="dateType"></xs:element>
+                            <xs:element name="PhieuMuon" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="MaPhieuMuon" type="xs:string"></xs:element>
+                                        <xs:element name="NgayMuon" type="xs:date"></xs:element>
+                                        <xs:element name="NgayTra" type="xs:date"></xs:element>
+                                        <xs:element name="ChiTietPhieuMuon" minOccurs="1" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="MaSach" type="xs:string"></xs:element>
+                                                    <xs:element name="SoLuong" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="dateType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([1-9]|1[0-9]|2[0-9]|3[0-1])[/]([1-9]|1[0-2])[/](\d{4})"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

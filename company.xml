@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE company SYSTEM "company.dtd">
+<?xml-model href="company.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<company>
+    <employee id="001">
+        <name>John Smith</name>
+        <department>Engineering</department>
+        <position>Software Engineer</position>
+        <salary currency="USD">80000</salary>
+        <contact>
+            <email>john.smith@example.com</email>
+            <phone>+1234567890</phone>
+        </contact>
+    </employee>
+    <employee id="002">
+        <name>Alice Johnson</name>
+        <department>Sales</department>
+        <position>Sales Manager</position>
+        <salary currency="USD"></salary>
+        <contact>
+            <email>alice.johnson@example.com</email>
+            <phone>+1987654321</phone>
+        </contact>
+    </employee>
+</company>

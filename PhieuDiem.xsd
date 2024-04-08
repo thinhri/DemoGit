@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="PhieuDiem">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="SinhVien">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="HoTen" type="xs:string"></xs:element>
+                            <xs:element name="Lop" type="xs:string"></xs:element>
+                            <xs:element name="DiaChi" type="xs:string"></xs:element>
+                            <xs:element name="GioiTinh" type="xs:string"></xs:element>
+                            <xs:element name="NgaySinh" type="xs:string"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="BangDiem">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="MonHoc" maxOccurs="2">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="STT" type="xs:int"></xs:element>
+                                        <xs:element name="TenMon" type="xs:string"></xs:element>
+                                        <xs:element name="DiemKy1" type="xs:double"></xs:element>
+                                        <xs:element name="DiemKy2" type="xs:double"></xs:element>
+                                        <xs:element name="DiemKyTB" type="xs:double"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        
+    </xs:element>
+</xs:schema>
